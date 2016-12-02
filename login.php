@@ -4,14 +4,14 @@
             <div class="form-group">
                 <label for="email" class="col-sm-3">Email address:</label>
                 <div class="col-sm-9">
-                    <input type="email" class="form-control" name="email" id="email">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" />
                 </div>                
             </div>
             
             <div class="form-group">
                 <label for="pwd" class="col-sm-3">Password:</label>
                 <div class="col-sm-9">
-                    <input type="password" class="form-control" name="password" id="pwd">
+                    <input type="password" class="form-control" name="password" id="pwd" placeholder="Enter password" />
                 </div>
             </div>
             <button type="submit" class="btn btn-danger col-sm-offset-6" name="login">Submit</button>

@@ -51,7 +51,7 @@
             <div class="form-group">
                 <label for="Answer" class="col-sm-3">Answer:</label>
                 <div class="col-sm-9">
-                    <input type="number" class="form-control" name="answer" id="answer" value="0">
+                    <input type="number" class="form-control" name="answer" id="answer" placeholder="Enter a number">
                 </div>                
             </div>
             <button type="submit" name="submit" class="btn btn-danger col-sm-offset-6">Submit</button>
