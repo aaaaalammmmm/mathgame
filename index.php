@@ -3,6 +3,10 @@
     session_start(); 
     extract($_POST);
 
+    if ($_SESSION["valid"] == false) {
+        header("location: login.php");
+    }
+
     $_SESSION["operand1"] = rand(0, 20);
     $_SESSION["operand2"] = rand(0, 20);
     $_SESSION["operator"] = rand(0, 1);
